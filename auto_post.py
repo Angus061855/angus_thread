@@ -181,7 +181,7 @@ def save_to_notion(topic, post_text, post_id):
                 "date": {"start": now}
             },
             "狀態": {
-                "status": {"name": "已發"}
+                "status": {"name": "完成"    }
             }
         }
     }
