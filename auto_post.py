@@ -179,6 +179,9 @@ def save_to_notion(topic, post_text, post_id):
             },
             "發文時間": {
                 "date": {"start": now}
+            },
+            "狀態": {
+                "status": {"name": "已發"}
             }
         }
     }
