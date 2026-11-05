@@ -2,8 +2,8 @@ name: Direct Post to Threads 圖片發文
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # 台灣時間 19:00
-    - cron: '0 13 * * *'   # 台灣時間 21:00
+    - cron: '0 7 * * *'  # 台灣時間 15:00
+    - cron: '0 9 * * *'  # 台灣時間 17:00
   workflow_dispatch:
 
 jobs:
