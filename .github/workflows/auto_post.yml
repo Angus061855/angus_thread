@@ -3,8 +3,8 @@ name: Auto Post to Threads 辯題發文
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'  # 台灣時間 20:00
-    - cron: '0 14 * * *'  # 台灣時間 22:00
+    - cron: '0 6 * * *'  # 台灣時間 14:00
+    - cron: '0 8 * * *'  # 台灣時間 16:00
 
 jobs:
   post:
